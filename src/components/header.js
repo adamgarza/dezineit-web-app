@@ -1,34 +1,47 @@
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/dezineit-logo.svg"
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
+import "./header.css"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+  <Navbar
+    fluid
+    collapseOnSelect
+    default
+    expand="lg"
+    sticky="top"
+    variant="dark"
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+    <Navbar.Brand href="/">
+      <h1 className="nav-brand">
+        <a href="/" className="brand">
+          <img
+            alt="Dezine It! logo"
+            src={logo}
+            width="90"
+            className="d-inline-block align-middle brand-logo"
+          />
           {siteTitle}
-        </Link>
+        </a>
       </h1>
-    </div>
-  </header>
+    </Navbar.Brand>
+
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="mr-auto" />
+      <Nav className="justify-content-end">
+        <Nav.Link href="/ecpd">ECPD</Nav.Link>
+        <Nav.Link href="/kouts">Kouts</Nav.Link>
+        <Nav.Link href="/ecfd">ECFD</Nav.Link>
+        <Nav.Link href="/about">About</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
 )
 
 Header.propTypes = {

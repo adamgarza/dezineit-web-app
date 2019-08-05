@@ -1,0 +1,27 @@
+.footer {
+  background-color: #333333;
+  color: #fff;
+  padding-top: auto;
+  width: 100%;
+}
+.footer-upper {
+  height: auto;
+  line-height: 90px;
+}
+
+.footer-lower {
+  background: rgb(29, 28, 28);
+  font-size: 0.75rem;
+  height: auto;
+  padding: 10px 0 2px 0;
+}
+
+.footer-lower img {
+  padding-top: 5px;
+  vertical-align: middle;
+}
+
+.footer-lower a {
+  text-decoration: none;
+  color: #fff;
+}

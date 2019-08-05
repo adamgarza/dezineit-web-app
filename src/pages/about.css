@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Shadows+Into+Light+Two&display=swap");
+
+.about-container {
+  color: #414042;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about-col-left {
+  padding-top: 4rem;
+}

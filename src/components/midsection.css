@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Shadows+Into+Light+Two&display=swap");
+
+.midsection-container {
+  background-color: rgba(209, 50, 57, 0.9);
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.midsection-container p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5rem;
+}
