@@ -3,9 +3,15 @@
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
+  <a href="https://www.contentful.com/">
+    <img alt="Contentful" src="https://d21buns5ku92am.cloudfront.net/41748/images/265846-Mark_Circular_darkBg_800x800-dd92d6-large-1511779631.png" width="60" />
+  </a>
+  <a href="https://www.netlify.com">
+    <img alt="Netlify" src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Dezine It! from Gatsby default starter
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -92,6 +98,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify - Status](https://api.netlify.com/api/v1/badges/a49e1324-341d-4e30-9fea-8dcf957532e8/deploy-status)](https://app.netlify.com/sites/dezine-it/deploys)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
