@@ -696,3 +696,8 @@ ul.blog-post li a:hover {
 ul.blog-post li button {
   margin-top: 0.7em;
 }
+
+.page-not-found-container {
+  padding-bottom: 20em;
+  padding-top: 2em;
+}
