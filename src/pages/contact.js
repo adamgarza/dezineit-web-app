@@ -19,7 +19,19 @@ class contact extends Component {
             <Col xs={12} sm={12} md={8} lg={8}>
               <h1 className="text-center">Contact Us</h1>
               <hr className="body-hr" />
-              <Form id="contact-form" name="contact-form">
+              <Form
+                id="contact-form"
+                name="contact"
+                method="POST"
+                netlify-honeypot="bot-field"
+                data-netlify="true"
+              >
+                <p class="hidden">
+                  <label>
+                    Don’t fill this out if you're human:{" "}
+                    <input name="bot-field" />
+                  </label>
+                </p>
                 <Form.Row>
                   <Col>
                     <Form.Group controlId="fname">
