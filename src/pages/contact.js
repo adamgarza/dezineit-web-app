@@ -34,25 +34,13 @@ class contact extends Component {
                 </p>
                 <Form.Row>
                   <Col>
-                    <Form.Group controlId="fname">
-                      <Form.Label>First Name</Form.Label>
+                    <Form.Group controlId="name">
+                      <Form.Label>Name</Form.Label>
                       <Form.Control
-                        id="first-name"
-                        name="first-name"
+                        id="name"
+                        name="name"
                         type="text"
-                        placeholder="First"
-                        required
-                      />
-                    </Form.Group>
-                  </Col>
-                  <Col>
-                    <Form.Group controlId="lname">
-                      <Form.Label>Last Name</Form.Label>
-                      <Form.Control
-                        id="last-name"
-                        name="last-name"
-                        type="text"
-                        placeholder="Last"
+                        placeholder="First & Last"
                         required
                       />
                     </Form.Group>
