@@ -7,7 +7,7 @@
     <img alt="Contentful" src="src/images/contentful-logo.png" width="60" />
   </a>
   <a href="https://www.netlify.com">
-    <img alt="Netlify" src="src/images/netlify-logo.svg" width="80" />
+    <img alt="Netlify" src="src/images/netlify-logo.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
