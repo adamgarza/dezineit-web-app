@@ -31,7 +31,7 @@ class contact extends Component {
                     <Form.Group controlId="name">
                       <Form.Label>Name</Form.Label>
                       <Form.Control
-                        id="name"
+                        // id="name"
                         name="name"
                         type="text"
                         placeholder="First + Last"
@@ -44,7 +44,7 @@ class contact extends Component {
                 <Form.Group controlId="email">
                   <Form.Label>Email address</Form.Label>
                   <Form.Control
-                    id="email"
+                    // id="email"
                     name="email"
                     type="text"
                     placeholder="email@example.com"
@@ -58,7 +58,7 @@ class contact extends Component {
                 <Form.Group controlId="message">
                   <Form.Label>Message</Form.Label>
                   <Form.Control
-                    id="message"
+                    // id="message"
                     name="message"
                     type="textarea"
                     as="textarea"
