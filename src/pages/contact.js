@@ -25,12 +25,7 @@ class contact extends Component {
                 data-netlify-honeypot="bot-field"
                 data-netlify="true"
               >
-                <p className="hidden">
-                  <label>
-                    Don’t fill this out if you're human:
-                    <input name="bot-field" />
-                  </label>
-                </p>
+                <input type="hidden" name="contact" value="contact" />
                 <Form.Row>
                   <Col>
                     <Form.Group controlId="name">
