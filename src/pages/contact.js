@@ -23,7 +23,7 @@ class contact extends Component {
                 id="contact-form"
                 name="contact"
                 method="POST"
-                netlify-honeypot="bot-field"
+                data-netlify-honeypot="bot-field"
                 data-netlify="true"
               >
                 <p className="hidden">
