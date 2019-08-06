@@ -20,7 +20,6 @@ class contact extends Component {
               <h1 className="text-center">Contact Us</h1>
               <hr className="body-hr" />
               <Form
-                id="contact-form"
                 name="contact"
                 method="POST"
                 data-netlify-honeypot="bot-field"
@@ -40,7 +39,7 @@ class contact extends Component {
                         id="name"
                         name="name"
                         type="text"
-                        placeholder="First & Last"
+                        placeholder="First + Last"
                         required
                       />
                     </Form.Group>
