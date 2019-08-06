@@ -6,3 +6,7 @@
   padding-top: 2rem;
   margin-bottom: 3rem;
 }
+
+.hidden {
+  visibility: hidden;
+}
