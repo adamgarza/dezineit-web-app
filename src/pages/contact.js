@@ -46,7 +46,7 @@ class contact extends Component {
                   <Form.Control
                     // id="email"
                     name="email"
-                    type="text"
+                    type="email"
                     placeholder="email@example.com"
                     required
                   />
