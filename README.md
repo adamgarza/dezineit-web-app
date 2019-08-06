@@ -4,7 +4,7 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
   <a href="https://www.contentful.com/">
-    <img alt="Contentful" src="https://d21buns5ku92am.cloudfront.net/41748/images/265846-Mark_Circular_darkBg_800x800-dd92d6-large-1511779631.png" width="60" />
+    <img alt="Contentful" src="src/images/contentful-logo.png" width="60" />
   </a>
   <a href="https://www.netlify.com">
     <img alt="Netlify" src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" width="60" />
