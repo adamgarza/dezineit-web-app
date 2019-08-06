@@ -37,8 +37,8 @@ class contact extends Component {
                     <Form.Group controlId="fname">
                       <Form.Label>First Name</Form.Label>
                       <Form.Control
-                        id="fname"
-                        name="fname"
+                        id="first-name"
+                        name="first-name"
                         type="text"
                         placeholder="First"
                         required
@@ -49,8 +49,8 @@ class contact extends Component {
                     <Form.Group controlId="lname">
                       <Form.Label>Last Name</Form.Label>
                       <Form.Control
-                        id="lname"
-                        name="lname"
+                        id="last-name"
+                        name="last-name"
                         type="text"
                         placeholder="Last"
                         required
