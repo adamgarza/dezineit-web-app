@@ -701,3 +701,25 @@ ul.blog-post li button {
   padding-bottom: 20em;
   padding-top: 2em;
 }
+
+.post-container {
+  padding-bottom: 4em;
+  padding-top: 2em;
+}
+
+.blog-post-container {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 1.3em;
+  width: 400px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  border: 1px solid #eee;
+  /* font-size: 16px; */
+  font-size: 1rem;
+  vertical-align: top;
+  box-shadow: 0 0 6px #eee;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
