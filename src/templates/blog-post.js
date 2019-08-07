@@ -18,7 +18,7 @@ class BlogPost extends Component {
           <Row>
             <Col xs={12} sm={12} md={1} lg={1}></Col>
             <Col xs={12} sm={12} md={5} lg={5} className="blog-post-container">
-              <h1>{title}</h1>
+              {/* <h1>{title}</h1> */}
               <img src={featureImage.fixed.src} />
             </Col>
             <Col
