@@ -5,6 +5,8 @@
   width: 100%;
 }
 .footer-upper {
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat;
   height: auto;
   line-height: 90px;
 }

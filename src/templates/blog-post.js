@@ -26,10 +26,12 @@ class BlogPost extends Component {
               sm={12}
               md={5}
               lg={5}
-              dangerouslySetInnerHTML={{
-                __html: content.childMarkdownRemark.html,
-              }}
-            />
+              // dangerouslySetInnerHTML={{
+              //   __html: content.childMarkdownRemark.html,
+              // }}
+            >
+              {content.childMarkdownRemark.html}
+            </Col>
 
             <Col xs={12} sm={12} md={1} lg={1}></Col>
           </Row>
