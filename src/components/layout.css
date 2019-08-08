@@ -624,10 +624,8 @@ pre tt:after {
 }
 
 .body-hr {
-  /* border: none; */
   border: 2px solid #d13239;
   color: #d13239;
-  /* height: 2px; */
   margin-left: auto;
   margin-right: auto;
   width: 30%;

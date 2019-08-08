@@ -29,3 +29,11 @@
   font-weight: bolder;
   margin-bottom: 8px;
 }
+
+.spotlight-right hr {
+  border: 2px solid #d13239;
+  color: #d13239;
+  margin-left: 0;
+  margin-right: auto;
+  width: 30%;
+}

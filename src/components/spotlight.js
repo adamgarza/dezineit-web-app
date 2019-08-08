@@ -14,19 +14,24 @@ class spotlight extends Component {
             <img
               src={image}
               width="100%"
-              // height="384"
               alt="spotlight shirt designs by Dezine It!"
             />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} className="spotlight-right">
             <span>Welcome to</span>
-            <h1>Dezine It!</h1>
 
+            <h1>Dezine It!</h1>
+            <hr />
             <p className="spotlight-p">
               Snag go-to looks for a new school year, for a special event, for
               your organization or team sports. Need some ideas? We got you - we
               provide custom design work! Mix and match styles for a modern new
               look.
+            </p>
+            <p className="spotlight-p">
+              Remember, when you shop with us you celebrate achievement, you
+              encourage growth, and you support a <strong>small + local</strong>{" "}
+              business.
             </p>
           </Col>
         </Row>
