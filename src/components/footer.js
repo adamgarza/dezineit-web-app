@@ -15,7 +15,11 @@ class footer extends Component {
             © {new Date().getFullYear()} - Dezine It! LLC.
           </Col>
           <Col xs={12} sm={12} md={12} lg={6}>
-            <span>7514 Missouri Ave Hammond, IN 46323 219-805-6534</span>
+            <ul>
+              <li>7514 Missouri Ave</li>
+              <li>Hammond, IN 46323</li>
+              <li>219-805-6534</li>
+            </ul>
           </Col>
           <Col xs={12} sm={12} md={12} lg={3}>
             <a href="https://www.instagram.com/dezineit/" target="_new">

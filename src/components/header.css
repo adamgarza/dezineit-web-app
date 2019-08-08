@@ -4,11 +4,20 @@
   background-color: #333333;
   background-image: url(../images/bg-pattern.png);
   background-repeat: repeat;
-  padding: auto 2rem auto 2rem;
+  padding: auto 3rem auto 3rem;
   box-shadow: 0 0 6px rgb(109, 107, 107);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.35rem;
+  font-size: 1.25rem;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
 }
 
 .nav-brand {

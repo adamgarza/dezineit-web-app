@@ -49,7 +49,21 @@ const IndexPage = ({ data }) => (
     {/* <Link to="/page-2/">Go to page 2</Link> */}
     {/* <hr className="body-hr" /> */}
     <Container fluid className="blog-container">
-      {" "}
+      {/* <Row>
+        <Col xs={12} sm={12} md={12} lg={12}>
+
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={12} md={12} lg={12}>
+
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} sm={12} md={12} lg={12}>
+
+        </Col>
+      </Row> */}{" "}
       <ul className="blog-post">
         {data.allContentfulBlog.edges.map(edge => (
           <BlogPost node={edge.node} />

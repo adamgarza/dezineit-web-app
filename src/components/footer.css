@@ -11,6 +11,19 @@
   line-height: 90px;
 }
 
+.footer ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.footer ul li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  text-decoration: none;
+  vertical-align: top;
+  line-height: 2.5em;
+}
+
 .footer-lower {
   background: rgb(29, 28, 28);
   font-size: 0.75rem;
