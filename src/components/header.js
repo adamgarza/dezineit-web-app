@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
       <Nav className="mr-auto" />
       <Nav className="justify-content-end">
         <Nav.Link href="/ecpd">ECPD</Nav.Link>
-        <Nav.Link href="/kouts">Kouts</Nav.Link>
+        <Nav.Link href="/kouts">Town of Kouts</Nav.Link>
         <Nav.Link href="/ecfd">ECFD</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
