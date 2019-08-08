@@ -2,8 +2,14 @@
 
 .navbar {
   background-color: #333333;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat;
+  padding: auto 2rem auto 2rem;
+  /* padding-right: 2rem; */
+  box-shadow: 0 0 6px rgb(109, 107, 107);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .nav-brand {
