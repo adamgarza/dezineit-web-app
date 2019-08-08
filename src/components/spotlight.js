@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import SpotlightImage from "../images/spotlight-image.svg"
+import image from "../images/spotlight-image.svg"
 import "./spotlight.css"
 
 class spotlight extends Component {
@@ -12,10 +12,10 @@ class spotlight extends Component {
         <Row>
           <Col xs={12} sm={12} md={6} lg={6} className="text-center">
             <img
-              src={SpotlightImage}
+              src={image}
               width="576"
               height="384"
-              alt="spotlight shirt designs"
+              alt="spotlight shirt designs by Dezine It!"
             />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} className="spotlight-right">
