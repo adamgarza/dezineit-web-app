@@ -13,8 +13,8 @@ class spotlight extends Component {
           <Col xs={12} sm={12} md={6} lg={6} className="text-center">
             <img
               src={image}
-              width="576"
-              height="384"
+              width="100%"
+              // height="384"
               alt="spotlight shirt designs by Dezine It!"
             />
           </Col>
