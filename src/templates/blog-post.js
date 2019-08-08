@@ -15,10 +15,15 @@ class BlogPost extends Component {
       <Layout>
         <SEO title={title} />
         <Container className="post-container blog-container">
+          <Row className="text-center blog-title-row">
+            <Col xs={12} sm={12} md={12} lg={12}>
+              <h1>{title}</h1>
+              <hr className="body-hr" />
+            </Col>
+          </Row>
           <Row>
             <Col xs={12} sm={12} md={1} lg={1}></Col>
             <Col xs={12} sm={12} md={5} lg={5} className="blog-post-container">
-              {/* <h1>{title}</h1> */}
               <img src={featureImage.fixed.src} />
             </Col>
             <Col
@@ -26,20 +31,13 @@ class BlogPost extends Component {
               sm={12}
               md={5}
               lg={5}
-              // dangerouslySetInnerHTML={{
-              //   __html: content.childMarkdownRemark.html,
-              // }}
-            >
-              {content.childMarkdownRemark.html}
-            </Col>
-
+              dangerouslySetInnerHTML={{
+                __html: content.childMarkdownRemark.html,
+              }}
+            />
             <Col xs={12} sm={12} md={1} lg={1}></Col>
           </Row>
         </Container>
-        {/* <h1>{title}</h1>
-        <div
-          dangerouslySetInnerHTML={{ __html: content.childMarkdownRemark.html }}
-        /> */}
       </Layout>
     )
   }
